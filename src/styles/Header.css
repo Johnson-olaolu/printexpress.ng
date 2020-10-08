@@ -1,0 +1,57 @@
+body {
+  background-color: #f9f9f9;
+}
+.logo {
+  height: 200px;
+  width: 200px;
+  margin: 8px;
+  float: left;
+}
+.top-nav {
+  height: 60px;
+  background-color: #603374;
+}
+.top-nav span {
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.top-nav a {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.bottom-nav {
+  height: 60px;
+  background-color: #603374;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.bottom-nav a {
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.middle-nav {
+  height: 100px;
+  text-align: center;
+}
+.div .span {
+  display: inline-block;
+}
+#span1 {
+  font-family: "Playfair Display";
+  font-size: 40px;
+}
+#span2 {
+  font-family: "Roboto";
+  font-size: 20px;
+  font-style: italic;
+  letter-spacing: 2px;
+}
