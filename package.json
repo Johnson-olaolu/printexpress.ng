@@ -1,7 +1,7 @@
 {
-  "name": "fm_fanatic",
+  "name": "Printexpress.ng",
   "version": "1.0.0",
-  "description": "Football Manager Site",
+  "description": "printexpress.ng site",
   "main": "index.js",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.29",
