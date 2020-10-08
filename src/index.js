@@ -5,4 +5,5 @@ import 'bootstrap/dist/js/bootstrap'
 import 'bootstrap/dist/css/bootstrap.css'
 import $ from 'jquery'
 import Popper from 'popper.js'
+import './styles/Header.css'
 ReactDom.render(<App/>, document.getElementById("App"))
