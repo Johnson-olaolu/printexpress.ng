@@ -2,18 +2,18 @@ body {
   background-color: #f9f9f9;
 }
 .logo {
-  height: 200px;
-  width: 200px;
+  height: 150px;
+  width: 150px;
   margin: 8px;
   float: left;
 }
 .top-nav {
-  height: 60px;
+  height: 40px;
   background-color: #603374;
 }
 .top-nav span {
   font-family: "Roboto";
-  font-size: 16px;
+  font-size: 12px;
   font-weight: bold;
   color: white;
   margin-top: auto;
@@ -24,14 +24,14 @@ body {
     margin-bottom: auto;
 }
 .bottom-nav {
-  height: 60px;
+  height: 40px;
   background-color: #603374;
-  padding-left: 40px;
-  padding-right: 40px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 .bottom-nav a {
   font-family: "Roboto";
-  font-size: 16px;
+  font-size: 12px;
   font-weight: bold;
   color: white;
   margin-top: auto;
@@ -39,7 +39,7 @@ body {
 }
 
 .middle-nav {
-  height: 100px;
+  height: 90px;
   text-align: center;
 }
 .div .span {
@@ -47,11 +47,67 @@ body {
 }
 #span1 {
   font-family: "Playfair Display";
-  font-size: 40px;
+  font-size: 32px;
 }
 #span2 {
   font-family: "Roboto";
-  font-size: 20px;
+  font-size: 12px;
   font-style: italic;
   letter-spacing: 2px;
+}
+.img-icon{
+  height: 12px;
+  width: 12px;
+}
+.nothing {
+  height: 450px;
+}
+.jumbo{
+  position: relative;
+}
+.img-overlay{
+  position: absolute;
+  top: 50px;
+  left: 60px;
+}
+.img-overlay-text{
+  display: block;
+  word-wrap:break-word;
+  width: 280px;
+  line-height: normal;
+  white-space: normal;
+  font-size: 40px;
+  font-family: "Playfair Display";
+  color: white;
+  text-shadow: 0px 1px 1px black;
+}
+.jumbo-button {
+  margin-top: 30px;
+  width: 150px;
+  height: 50px;
+  background-color: #603374;
+  border: none;
+  border-radius: 10px;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  box-shadow: 0px 1px 1px black;
+}
+.header-text{
+  width: 900px;
+  margin: auto;
+  height: 50px;
+  text-align: center;
+}
+.header-text span{
+  
+  font-size: 32px;
+  font-family: "Playfair Display";
+  color: #603374;
+}
+.header-text p{
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: lighter;
 }
