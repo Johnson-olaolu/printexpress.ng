@@ -16,6 +16,7 @@ class Jumbo extends React.Component {
             <button class="jumbo-button">Contact Us</button>
           </div>
         </div>
+        
         <div class="header-text">
           <span>Lorem ipsum</span>
           <p>

@@ -6,7 +6,7 @@ import "bootstrap/dist/css/bootstrap.css";
 import $ from "jquery";
 import Popper from "popper.js";
 import "./styles/Header.css";
-import "./styles/Main.css";
+import "./styles/Homepage.css";
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 ReactDom.render(
   <BrowserRouter>
