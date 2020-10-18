@@ -55,18 +55,18 @@ class Navbar extends React.Component {
               <Link to="/" class="nav-link" href="#">
                 Home
               </Link>
-              <a class="nav-link" href="#">
-                Active
-              </a>
-              <a class="nav-link" href="#">
-                Active
-              </a>
-              <a class="nav-link" href="#">
-                Active
-              </a>
-              <a class="nav-link" href="#">
-                Active
-              </a>
+              <Link to="/Products" class="nav-link" href="#">
+                Products
+              </Link>
+              <Link to="/Blog" class="nav-link" href="#">
+                Blog
+              </Link>
+              <Link to="/Gallery" class="nav-link" href="#">
+                Gallery
+              </Link>
+              <Link to="/About Us" class="nav-link" href="#">
+                About Us
+              </Link>
             </nav>
           </div>
         </header>

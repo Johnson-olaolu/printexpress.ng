@@ -7,6 +7,7 @@ class Home extends React.Component {
         return (
             <div>
                 <Jumbo/>
+                <br></br>
                 <Cards></Cards>
             </div>
         )

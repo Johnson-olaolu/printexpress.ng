@@ -1,0 +1,113 @@
+/*Jumbotron*/
+.jumbo {
+  position: relative;
+}
+.img-overlay {
+  position: absolute;
+  top: 50px;
+  left: 60px;
+}
+.img-overlay-text {
+  display: block;
+  word-wrap: break-word;
+  width: 280px;
+  line-height: normal;
+  white-space: normal;
+  font-size: 40px;
+  font-family: "Playfair Display";
+  color: white;
+  text-shadow: 0px 1px 1px black;
+}
+.jumbo-button {
+  margin-top: 30px;
+  width: 150px;
+  height: 50px;
+  background-color: #603374;
+  border: none;
+  border-radius: 10px;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  box-shadow: 0px 1px 1px black;
+}
+/*Header Text*/
+.header-text {
+  width: 900px;
+  margin: auto;
+  height: 50px;
+  text-align: center;
+}
+.header-text span {
+  font-size: 32px;
+  font-family: "Playfair Display";
+  color: #603374;
+}
+.header-text p {
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: lighter;
+}
+/*Cards*/
+.card-box {
+  margin-top: 80px;
+  display: flex;
+}
+
+.card-button {
+  font-size: 200px;
+  font-family: "Roboto";
+  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #603374;
+  background: none;
+  border: none;
+}
+#card-button-left {
+  float: left;
+}
+
+#card-button-right {
+  float: right;
+}
+.cards {
+  float: left;
+  display: flex;
+  width: 900px;
+}
+
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 20px 40px #000000;
+  transition: 0.3s;
+  height: 350px;
+  width: 250px;
+}
+
+.card img {
+  height: 200px;
+  width: 250px;
+}
+.container2 {
+  padding: 20px;
+}
+.card span {
+  font-family: "Playfair Display";
+  font-size: 20px;
+  color: #603374;
+}
+.card button {
+  margin-top: 20px;
+  border: none;
+  background-color: #603374;
+  color: white;
+  font-size: 20px;
+  font-family: "Playfair Display";
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 #000000;
+}
+
+/* Add some padding inside the card container */
